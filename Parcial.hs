@@ -21,8 +21,6 @@ caro = Personaje "Caro" Arquero  25  9
 
 -- Punto 1: Tipos de datos y pattern matching -------------------------------
 
--- Tipo suma con tres constructores (como FiguraGeometrica en clase).
--- Sin nombres de campo, para que "nombre" no choque con el de Personaje.
 data Item = Arma String Int        -- nombre, daño
           | Armadura String Int    -- nombre, defensa
           | Pocion String Int      -- nombre, vida que cura
